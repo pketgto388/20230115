@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.face {
+    width:400px;
+    height:400px;
+    background-color: brown;
+    color: black;
+}
+
+.lefteye {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.right{
+    width:100px;
+    heig
+}
