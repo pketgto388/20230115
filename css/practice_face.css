@@ -5,20 +5,35 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.face {
-    width:400px;
-    height:400px;
-    background-color: brown;
-    color: black;
+.face{
+    width:500px;
+    height:500px;
+    background-color: aqua;
+    position: :relative;
 }
-
-.lefteye {
+.eye {
     width: 100px;
     height: 100px;
-    background-color: aqua;
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
 }
+
+.left{
+    left:20%;
+}
+
 .right{
-    width:100px;
-    heig
+    right:20%;
+}
+
+.mouth{
+    width:200px;
+    height:200px;
+    background-color: yellow;
+    border-radius: 20px;
+    position: absolute;
+    bottom:20%;
+    margin-left: 150px;
 }
